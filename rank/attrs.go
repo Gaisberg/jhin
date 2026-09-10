@@ -50,6 +50,7 @@ const (
 	AttrAV1  Attr = "av1"
 	AttrXvid Attr = "xvid"
 	AttrMPEG Attr = "mpeg"
+	AttrVC1  Attr = "vc1"
 
 	// hdr / depth
 	AttrDolbyVision Attr = "dolby_vision"
@@ -66,6 +67,8 @@ const (
 	AttrDolbyDigitalPlus Attr = "dolby_digital_plus"
 	AttrDTSLossy         Attr = "dts_lossy"
 	AttrDTSLossless      Attr = "dts_lossless"
+	AttrDTSX             Attr = "dts_x"
+	AttrDTSES            Attr = "dts_es"
 	AttrFLAC             Attr = "flac"
 	AttrOPUS             Attr = "opus"
 	AttrPCM              Attr = "pcm"
@@ -141,6 +144,7 @@ var codecAttrs = map[string]Attr{
 	"av1":  AttrAV1,
 	"xvid": AttrXvid,
 	"mpeg": AttrMPEG,
+	"vc1":  AttrVC1,
 }
 
 var hdrAttrs = map[string]Attr{
@@ -158,6 +162,8 @@ var audioAttrs = map[string]Attr{
 	"Dolby Digital Plus": AttrDolbyDigitalPlus,
 	"DTS Lossy":          AttrDTSLossy,
 	"DTS Lossless":       AttrDTSLossless,
+	"DTS:X":              AttrDTSX,
+	"DTS-ES":             AttrDTSES,
 	"FLAC":               AttrFLAC,
 	"OPUS":               AttrOPUS,
 	"PCM":                AttrPCM,
@@ -168,6 +174,7 @@ var audioAttrs = map[string]Attr{
 
 var channelAttrs = map[string]Attr{
 	"5.1":    AttrSurround,
+	"6.1":    AttrSurround,
 	"7.1":    AttrSurround,
 	"2.0":    AttrStereo,
 	"stereo": AttrStereo,

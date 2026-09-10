@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,203 real-world
+`parser/testdata/golden.json` pins the expected output for 1,226 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -281,6 +281,13 @@ pinned expectations, listed here:
 - A language fused to a sub token (`ENGSUB`, `ESub`, `VOSTFR`, `SWESUB`,
   `KORSUB`, `PLSUB`, `SUBFRENCH`) sets `Subbed`, not only `Languages`, and
   the plural `ESubs` sets `Languages` to `en` like the singular.
+- `ITUNES`/`iTunes`/bare `iT` and `PMTP` are network tags (iTunes and
+  Paramount) that PTT's own table doesn't map, so it left them unset.
+- Bare `DC` after the year is Director's Cut (`Color.Of.Night.Unrated.DC...`),
+  another tag missing from PTT's table.
+- Bare `iT` is the iTunes platform tag in source position
+  (`...1080p.iT.WEB-DL...`), but never in first position, where it is the
+  title's own first word (`iT.Chapter.Two`).
 - `6.1` is a real channel layout; PTT left `DTS-HD-HR-6.1` (`Basic
   Instinct`) with no `Channels` at all.
 - `DTS-ES` and `DTS:ES` are the Extended Surround format, since a hyphen or

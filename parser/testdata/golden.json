@@ -3047,7 +3047,10 @@
       "seasons": [],
       "title": "Comme une Image (Look at Me)",
       "subtitles": [
-        "fr"
+        "fr",
+        "sv",
+        "da",
+        "no"
       ]
     }
   },
@@ -3697,7 +3700,9 @@
       "seasons": [],
       "title": "Divorzio allitaliana",
       "subtitles": [
-        "en"
+        "en",
+        "es",
+        "tr"
       ]
     }
   },
@@ -5040,7 +5045,8 @@
       "seasons": [],
       "title": "Furiosa - A Mad Max Saga",
       "subtitles": [
-        "it"
+        "it",
+        "en"
       ]
     }
   },
@@ -10128,7 +10134,10 @@
       "seasons": [],
       "title": "Red Riding 1974",
       "subtitles": [
-        "en"
+        "en",
+        "sv",
+        "no",
+        "fi"
       ]
     }
   },
@@ -10478,7 +10487,7 @@
       "seasons": [],
       "title": "Seinfeld",
       "subtitles": [
-        "sl"
+        "sk"
       ]
     }
   },
@@ -11127,7 +11136,12 @@
       "extension": "srt",
       "episodes": [],
       "seasons": [],
-      "title": "ara,"
+      "title": "ara,",
+      "subtitles": [
+        "ar",
+        "fr",
+        "de"
+      ]
     }
   },
   {
@@ -11146,7 +11160,16 @@
       "extension": "srt",
       "episodes": [],
       "seasons": [],
-      "title": "chi,,ind"
+      "title": "chi,,ind",
+      "subtitles": [
+        "zh",
+        "en",
+        "id",
+        "ko",
+        "ms",
+        "th",
+        "vi"
+      ]
     }
   },
   {
@@ -11294,7 +11317,10 @@
       "extension": "srt",
       "episodes": [],
       "seasons": [],
-      "title": "Thai"
+      "title": "Thai",
+      "subtitles": [
+        "th"
+      ]
     }
   },
   {
@@ -11320,7 +11346,10 @@
       "extension": "srt",
       "episodes": [],
       "seasons": [],
-      "title": "nob"
+      "title": "nob",
+      "subtitles": [
+        "no"
+      ]
     }
   },
   {
@@ -11333,7 +11362,10 @@
       "extension": "srt",
       "episodes": [],
       "seasons": [],
-      "title": "vie"
+      "title": "vie",
+      "subtitles": [
+        "vi"
+      ]
     }
   },
   {
@@ -12257,7 +12289,8 @@
       "seasons": [],
       "title": "The Insider",
       "subtitles": [
-        "ro"
+        "ro",
+        "tr"
       ]
     }
   },
@@ -14908,7 +14941,10 @@
       "subbed": true,
       "episodes": [],
       "seasons": [],
-      "title": "Yes Man"
+      "title": "Yes Man",
+      "subtitles": [
+        "da"
+      ]
     }
   },
   {
@@ -20072,7 +20108,10 @@
         "ru"
       ],
       "subbed": true,
-      "title": "The Agency"
+      "title": "The Agency",
+      "subtitles": [
+        "en"
+      ]
     }
   },
   {
@@ -20296,7 +20335,11 @@
         "ru"
       ],
       "subbed": true,
-      "title": "Friends"
+      "title": "Friends",
+      "subtitles": [
+        "ru",
+        "en"
+      ]
     }
   },
   {

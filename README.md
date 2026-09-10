@@ -268,7 +268,7 @@ fuzzing.
 
 ## Accuracy
 
-`parser/testdata/golden.json` pins the expected output for 1,226 real-world
+`parser/testdata/golden.json` pins the expected output for 1,229 real-world
 release names across every field. Any behavioral regression fails CI.
 
 The corpus was seeded from the Python PTT 1.8.5 parser. jhin owns it and
@@ -294,6 +294,10 @@ pinned expectations, listed here:
   colon binds the two halves into one token. `DTS.ES` and `DTS ES` are two
   tokens, DTS audio and the Spanish language tag, unless a `6.1` or
   `Discrete`/`Matrix` marker follows: only the format carries those.
+- The `SLO` family is Slovenian, not Slovak. PTT folded `SLO` and `SLOSUBS`
+  into Slovak on the ISO 639-2/B code `slo`, but in release naming `SLO` is
+  Slovenia and SLOSUBS was a Slovenian subtitle community. Slovak keeps its
+  own name and gains `SVK`, Slovakia's abbreviation, in their place.
 
 ## How it compares
 
